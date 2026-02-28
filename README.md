@@ -86,30 +86,18 @@ WebUI 简介：点击 App 选项卡即可进入 OpenClaw 控制台。 Agents 菜
 七、 环境变量汇总与填写说明
 在 Space 的 Settings -> Variables and secrets 页面，请按照下表添加 Secrets：
 
-变量名
-填写说明
-GEMINI_API_KEY
-必填。Google AI Studio 申请的 API 密钥，用于驱动 AI 大脑和绘图 。
-HF_TOKEN
-必填。您的 HuggingFace 访问令牌，必须具备 Write 权限，用于备份数据 。
-HF_DATASET
-必填。用于存放备份文件的仓库名，格式为 用户名/仓库名 。
-MODEL
-选填。主对话模型 ID，默认为 gemini-2.0-flash 。
-IMAGE_MODEL
-选填。绘图模型 ID，默认为 imagen-4.0-generate-001 。
-DISCORD_TOKEN
-Discord 机器人的私密令牌 。
-DISCORD_USER_ID
-您的 Discord 用户 ID，用于精确识别指令发起者 。
-FEISHU_APP_ID
-飞书自建应用的 App ID 。
-FEISHU_APP_SECRET
-飞书自建应用的 App Secret 。
-FEISHU_ENCRYPT_KEY
-选填。飞书事件订阅的加密密钥，如未设置可留空 。
-HTTPS_PROXY
-格式为 http://用户名:密码@您的服务器IP:端口，用于联通境外服务。
+变量名                   填写说明
+GEMINI_API_KEY          必填。 Google AI Studio 申请的 API 密钥，用于驱动 AI 大脑和绘图 。
+HF_TOKEN                必填。 您的 HuggingFace 访问令牌，必须具备 Write 权限，用于备份数据 。
+HF_DATASET              必填。 用于存放备份文件的仓库名，格式为 用户名/仓库名 。
+MODEL                   选填。 主对话模型 ID，默认为 gemini-2.0-flash 。
+IMAGE_MODEL             选填。 绘图模型 ID，默认为 imagen-4.0-generate-001 。
+DISCORD_TOKEN           Discord 机器人的私密令牌 。
+DISCORD_USER_ID         您的 Discord 用户 ID，用于精确识别指令发起者 。
+FEISHU_APP_ID           飞书自建应用的 App ID 。
+FEISHU_APP_SECRET       飞书自建应用的 App Secret 。
+FEISHU_ENCRYPT_KEY      选填。飞书事件订阅的加密密钥，如未设置可留空 。
+HTTPS_PROXY             格式为 http://用户名:密码@您的服务器IP:端口，用于联通境外服务。
 
 八、 安装部署注意事项
 图片显示不了：检查 IMAGE_MODEL 是否设置正确（推荐 imagen-4.0-generate-001）。
