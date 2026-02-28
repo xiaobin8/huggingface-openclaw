@@ -86,7 +86,7 @@ WebUI 简介：点击 App 选项卡即可进入 OpenClaw 控制台。 Agents 菜
 七、 环境变量汇总与填写说明
 在 Space 的 Settings -> Variables and secrets 页面，请按照下表添加 Secrets：
 
-变量名                   填写说明
+变量名                               填写说明
 
 GEMINI_API_KEY          必填。 Google AI Studio 申请的 API 密钥，用于驱动 AI 大脑和绘图 。
 
